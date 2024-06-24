@@ -1,3 +1,5 @@
+/*css pentru navbar si link*/
+
 /*css pentru css properties*/
 .containerLi {
   display: flex;
@@ -341,4 +343,154 @@ body {
 }
 .gapImg {
   width: 300;
+}
+/*css Index*/
+.indexContainer1 {
+  display: flex;
+  flex-direction: column;
+}
+.h1Container1 {
+  display: flex;
+  justify-content: center;
+}
+.indexContainer2 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px 15px;
+}
+.h2Container1 {
+  align-content: center;
+}
+.indexContainer3 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px 15px;
+  align-items: flex-start;
+}
+.h2Container2 {
+  display: flex;
+  justify-content: center;
+}
+.indexContainer4 {
+  display: flex;
+  flex-direction: row;
+}
+.tableIndex1 {
+  display: table;
+}
+.tableIndex1 tr,
+th {
+  border: 1px solid black;
+  background-color: rgb(132, 188, 170);
+}
+.indexContainer5 {
+  display: flex;
+  flex-direction: column;
+}
+.indexOlList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(135, 135, 135);
+  border: 1px dotted black;
+}
+.indexContainer6 {
+  display: flex;
+  flex-direction: column;
+}
+/*css elemente si tag*/
+.containerElemMax {
+  display: flex;
+  flex-direction: column;
+}
+.elemH1container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  color: rgb(103, 103, 136);
+  text-decoration: underline;
+}
+.containerElemente1 {
+  display: flex;
+  flex-direction: column;
+}
+.elemH2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dlElemen1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(190, 190, 191);
+  border: 2px solid black;
+  align-content: center;
+}
+.containerElemT {
+  display: flex;
+  flex-direction: column;
+}
+.olElemente2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10 10;
+  align-content: center;
+}
+.liDl1 {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+.ulDl1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.containerElemente2 {
+  display: flex;
+  flex-direction: row;
+}
+/*css formulare*/
+.formulareContainer1 {
+  display: flex;
+  flex-direction: row;
+}
+.h1Form {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.containerForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+/*css multimedia*/
+.multimediaContainerMax {
+  display: flex;
+  flex-direction: column;
+}
+
+.multimediaContainer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+.olMultimedia {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.imgMultimedia1 {
+  width: 445px;
+  height: 235px;
+  align: center;
+}
+.imgNaturaResponsive {
+  width: 100%;
+  height: auto;
 }

@@ -1,0 +1,199 @@
+<html>
+  <head>
+    <title>Formulare</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url("whiteback.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+      }
+    </style>
+    <div>
+      <ul class="navBar">
+        <li><a class="linkTextNav" href="index.html">Acasa</a></li>
+        <li><a class="linkTextNav" href="tabele.html">Tabele</a></li>
+        <li><a class="linkTextNav" href="formulare.html">Formulare</a></li>
+        <li><a class="linkTextNav" href="multimedia.html">Multimedia</a></li>
+        <li>
+          <a class="linkTextNav" href="elementesitag.html"
+            >Elemente si Tag-uri</a
+          >
+        </li>
+
+        <li><a class="linkTextNav" href="css.html">Css Properties</a></li>
+        <li><a class="linkTextNav" href="cssLayout.html">Css Layout</a></li>
+      </ul>
+    </div>
+
+    <section>
+      <h1 class="h1Form">Formulare</h1>
+      <div class="formulareContainer1">
+        <p>
+          Formularele sunt o parte esențială a Internetului, oferindu-le
+          utilizatorilor un mod dinamic de a interacționa cu paginile pe care le
+          vizitează.
+        </p>
+        <p>
+          In functie de necesitati informatia poate fi procesata si stocata
+          intr-un fisier, se pot realiza statistici, formulare de inscriere sau
+          abonamente la informatia prezentata in pagina ta si multe altele.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="containerForm">
+        <div>
+          <h2>Butoanele Radio</h2>
+          <hr />
+          <!-- Exemplu
+        <div>
+        <p>Choose your favorite Web language:</p>
+  
+        <form>
+          <input type="radio" id="html" name="fav_language" value="HTML" />
+          <label for="html">HTML</label><br />
+          <input type="radio" id="css" name="fav_language" value="CSS" />
+          <label for="css">CSS</label><br />
+          <input
+            type="radio"
+            id="javascript"
+            name="fav_language"
+            value="JavaScript"
+          />
+          <label for="javascript">JavaScript</label>
+        </form>
+      </div> -->
+          <p>Alegeti tipul de masina preferat</p>
+          <form>
+            <input
+              type="radio"
+              id="audi"
+              name="masina_preferata"
+              value="Audi"
+            />
+            <label for="audi">Audi</label><br />
+            <input type="radio" id="bmw" name="masina_preferata" value="BMW" />
+            <label for="bmw">BMW</label><br />
+            <input
+              type="radio"
+              id="mercedes"
+              name="masina_preferata"
+              value="Mercedes"
+            />
+            <lable for="mercedes">Mercedes</lable> <br />
+            <input type="submit" value="trimite" />
+          </form>
+
+          <br />
+
+          <h2>Checkboxes - Casete de selectare</h2>
+          <hr />
+          <!-- Exemplu checkbox 
+     <div>
+      <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> I have a bike</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> I have a car</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle3"> I have a boat</label>
+      </form>
+    </div> -->
+          <p>Alegeti unul sau mai multe animale preferate</p>
+          <form>
+            <input type="checkbox" id="animal1" name="animal1" value="Caine" />
+            <label for="animal1">Caine</label><br />
+            <input type="checkbox" id="animal2" name="animal2" value="Pisica" />
+            <label for="animal2">Pisica</label><br />
+            <input
+              type="checkbox"
+              id="animal3"
+              name="animal3"
+              value="Papagal"
+            />
+            <label for="animal3">Papagal</label><br />
+            <input type="checkbox" id="animal4" name="animal4" value="Cal" />
+            <label for="animal4">Cal</label><br />
+          </form>
+        </div>
+
+        <div>
+          <h3>Submit button - Butonul de trimitere</h3>
+          <!-- <div>
+        <form action="/action_page.php">
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" value="John" /><br />
+          <label for="lname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>-->
+          <!--Exercitiu 1-->
+          <form>
+            <label>Sunteti de acord cu procesarea platii?</label>
+            <br />
+            <lable for="procesarePlata1">Da</lable>
+            <input type="checkbox" name="procesarePlata" id="procesarePlata1" />
+            <label for="procesarePlata2">Nu</label>
+            <input
+              type="checkbox"
+              name="procesarePlata"
+              id="procesarePlata2"
+            /><br />
+            <input type="submit" value="Trimite" />
+          </form>
+
+          <hr />
+          <br />
+          <!--Exercitiu 2-->
+          <form>
+            <label>Finalizati comanda?</label>
+            <input
+              type="radio"
+              name="finalizareComanda"
+              id="finalizareComanda1"
+            />
+            <lable for="finalizareComanda1">Da</lable>
+            <input
+              type="radio"
+              name="finalizareComanda"
+              id="finalizareComanda2"
+            />
+            <label for="finalizareComanda2">Nu</label>
+          </form>
+
+          <h3>Formulare text</h3>
+          <form>
+            <label for="Nume">Nume</label>
+            <input
+              type="text"
+              placeholder="Introduceti numele"
+              id="Nume"
+              name="nume"
+            /><br />
+            <label for="Varsta">Varsta</label>
+            <input
+              type="number"
+              placeholder="Introduceti varsta"
+              id="Varsta"
+              name="varsta"
+            /><br />
+            <label for="Fruct">Fruct</label>
+            <input
+              type="text"
+              placeholder="Fruct preferat"
+              id="Fruct"
+              name="fruct"
+            />
+            <input type="submit" value="Trimite" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
