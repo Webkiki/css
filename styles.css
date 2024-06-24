@@ -127,3 +127,70 @@
 body {
   margin: 20px 20px 20px 20px;
 }
+.layoutContainer1 {
+  display: flex;
+  flex-direction: column;
+}
+.h2Layout {
+  display: flex;
+  justify-content: center;
+  color: rgb(18, 8, 37);
+}
+.listPosition {
+  list-style: circle;
+  row-gap: 5px;
+}
+.layoutContainer2 {
+  display: flex;
+  flex-direction: column;
+}
+.imgStatic {
+  width: 400px;
+}
+.PsStatic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.layoutContainer3 {
+  display: flex;
+  flex-direction: column;
+}
+.imgRelative {
+  width: 400px;
+  position: relative;
+  left: 40px;
+}
+.PsRelative {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.layoutContainer4 {
+  display: flex;
+  flex-direction: column;
+}
+.PsFixed {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.imgFixed {
+  width: 200px;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.layoutContainer5 {
+  display: flex;
+  flex-direction: column;
+}
+.PsAbsolute {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.imgAbsolute {
+  width: 400px;
+}
