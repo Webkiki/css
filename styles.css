@@ -1,0 +1,129 @@
+.containerLi {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.lista1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+}
+.p1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(84, 92, 169);
+  font-weight: bold;
+}
+.fontExp {
+  display: flex;
+  flex-direction: row;
+}
+.imgFont {
+  max-width: 70%;
+  max-height: fit-content;
+}
+.fontStyle {
+  display: flex;
+  flex-direction: row;
+}
+.imgStyle {
+  max-width: 70%;
+  max-height: fit-content;
+}
+.txtAlign {
+  display: flex;
+  flex-direction: row;
+}
+.imgAlign {
+  max-width: 70%;
+  max-height: fit-content;
+}
+.txtDecoration {
+  display: flex;
+  flex-direction: row;
+}
+.imgDecoration {
+  max-width: 70%;
+  max-height: fit-content;
+}
+.fontSize {
+  display: flex;
+  flex-direction: row;
+}
+.imgFontSize {
+  max-width: 70%;
+  max-height: fit-content;
+}
+.lista2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+}
+.bgColor {
+  display: flex;
+  flex-direction: row;
+}
+.imgBgColor {
+  max-width: 70%;
+  max-height: fit-content;
+}
+.colorGeneral {
+  display: flex;
+  flex-direction: row;
+}
+.imgColorGeneral {
+  max-width: 70%;
+  max-height: fit-content;
+}
+.BgImagine {
+  display: flex;
+  flex-direction: row;
+}
+.bgImg {
+  max-width: 70%;
+  max-height: fit-content;
+}
+.lista3 {
+  display: flex;
+  flex-direction: column;
+}
+.ulImg {
+  display: flex;
+  flex-direction: row;
+}
+.listaLink {
+  list-style: none;
+  flex-direction: row;
+}
+
+.imgLinkuri {
+  max-width: 70%;
+  max-height: fit-content;
+}
+.p2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(84, 92, 169);
+  font-weight: bold;
+}
+.lista4 {
+  display: flex;
+  flex-direction: column;
+}
+.p3 {
+  display: flex;
+  justify-content: center;
+  color: rgb(84, 92, 169);
+  font-weight: bold;
+}
+.subLista4 {
+  display: flex;
+  flex-direction: row;
+  row-gap: 20px;
+}
+
+body {
+  margin: 20px 20px 20px 20px;
+}
