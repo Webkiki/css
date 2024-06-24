@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <style>
+      body {
+        background-image: url("whiteback.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+      }
+    </style>
+
+    <h1 class="h1Flex">Flexbox</h1>
+    <div class="flexContainer1">
+      <p>
+        Modulul de layout cutie flexibilă (denumit de obicei flexbox) este un
+        model de layout unidimensional pentru distribuirea spațiului între
+        articole și include numeroase capacități de aliniere.
+      </p>
+      <p>
+        Ideea principală din spatele aspectului flexibil este de a oferi
+        containerului capacitatea de a modifica lățimea/înălțimea articolelor
+        (și ordinea) pentru a umple cel mai bine spațiul disponibil (mai ales
+        pentru a se adapta la toate tipurile de dispozitive de afișare și
+        dimensiuni de ecran). Un container flexibil extinde articolele pentru a
+        umple spațiul liber disponibil sau le micșorează pentru a preveni
+        debordarea.
+      </p>
+    </div>
+    <h3 class="H3flexParinti">
+      Proprietati flexbox ale parintilor(flex container)
+    </h3>
+    <div class="flexDisplay">
+      <p>
+        Display - Aceasta definește un container flexibil; inline sau bloc în
+        funcție de valoarea dată. Permite un context flexibil pentru toți copiii
+        săi direcți.
+      </p>
+      <img src="flexdisplay.png" alt="flex display" class="displayFlexImg" />
+    </div>
+    <div class="flexDirection">
+      <p>
+        Flex-direction - aceasta stabilește axa principală, definind astfel
+        direcția în care articolele flexibile sunt plasate în containerul
+        flexibil. Flexbox este (pe lângă împachetarea opțională) un concept de
+        aspect cu o singură direcție. Articolele flexibile sunt așezate în
+        principal fie în rânduri orizontale, fie în coloane verticale.
+      </p>
+      <img
+        src="flexdirection.png"
+        alt="flex direction img"
+        class="flexDirectionImg"
+      />
+    </div>
+    <div class="flexWrap">
+      <p>
+        Flex-wrap - În mod implicit, elementele flexibile vor încerca să se
+        potrivească pe o singură linie. Puteți modifica acest lucru și permite
+        articolelor să se împacheteze după cum este necesar cu această
+        proprietate.
+      </p>
+      <img src="flexwrap.png" alt="flex wrap img" class="flexWrapImg" />
+    </div>
+    <div class="flexFlow">
+      <p>
+        Flex-flow - Aceasta este o prescurtare pentru proprietățile
+        flex-direction și flex-wrap, care împreună definesc axele principale și
+        transversale ale containerului flexibil. Valoarea implicită este row
+        nowrap.
+      </p>
+      <img src="flexflow.png" alt="flex flow img" class="flexFlowImg" />
+    </div>
+    <div class="justifyContent">
+      <p>
+        Justify-content - Aceasta definește alinierea de-a lungul axei
+        principale. Ajută la distribuirea spațiului liber suplimentar rămas
+        atunci când fie toate elementele flexibile de pe o linie sunt
+        inflexibile, fie sunt flexibile, dar au atins dimensiunea maximă. De
+        asemenea, exercită un anumit control asupra alinierii elementelor atunci
+        când depășesc linia.
+      </p>
+      <img
+        src="justifycontent.png"
+        alt="Justify-content img"
+        class="justifyContentImg"
+      />
+    </div>
+    <div class="alignItems">
+      <p>
+        Align-items - Aceasta definește comportamentul implicit pentru modul în
+        care elementele flexibile sunt așezate de-a lungul axei transversale pe
+        linia curentă. Gândiți-vă la aceasta ca la versiunea de conținut
+        justificat pentru axa transversală (perpendiculară pe axa principală).
+      </p>
+      <img src="alignitems.png" alt="align items img" class="alignItemsImg" />
+    </div>
+    <div class="alignContent">
+      <p>
+        Align-content - Acest lucru aliniază liniile unui container flexibil
+        atunci când există spațiu suplimentar pe axa transversală, similar
+        modului în care justify-content aliniază articolele individuale în axa
+        principală. Această proprietate are efect numai pentru containerele
+        flexibile cu mai multe linii.
+      </p>
+      <img
+        src="aligncontent.png"
+        alt="align content img"
+        class="alignContentImg"
+      />
+    </div>
+    <div class="gapRowColumn">
+      <p>
+        gap, row-gap, column-gap - Proprietatea gap controlează în mod explicit
+        spațiul dintre elementele flexibile. Se aplică acea distanță numai între
+        elemente, nu pe marginile exterioare. Nu este exclusiv pentru flexbox,
+        gap funcționează și în aspectul grilă și cu mai multe coloane.
+      </p>
+      <img src="gapimg.png" alt="gap row-gap column-gap img" class="gapImg" />
+    </div>
+  </body>
+</html>

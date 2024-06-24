@@ -1,3 +1,4 @@
+/*css pentru css properties*/
 .containerLi {
   display: flex;
   flex-direction: column;
@@ -123,10 +124,11 @@
   flex-direction: row;
   row-gap: 20px;
 }
-
+/* General css*/
 body {
   margin: 20px 20px 20px 20px;
 }
+/* css pentru cssLayout*/
 .layoutContainer1 {
   display: flex;
   flex-direction: column;
@@ -193,4 +195,150 @@ body {
 }
 .imgAbsolute {
   width: 400px;
+}
+.layoutContainer6 {
+  display: flex;
+  flex-direction: column;
+}
+.zIndex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.imgZindex1 {
+  width: 400px;
+  flex-shrink: 5;
+}
+.imgZindex2 {
+  width: 400px;
+  flex-shrink: 5;
+}
+.imgZindex3 {
+  width: 400px;
+  flex-shrink: 5;
+  flex-basis: auto;
+}
+.exempleZindex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  row-gap: 20px;
+}
+/*css Flexbox*/
+.flexContainer1 {
+  display: flex;
+  flex-direction: row;
+  row-gap: 30px;
+}
+.h1Flex {
+  display: flex;
+  justify-content: center;
+  color: rgb(38, 64, 87);
+  text-decoration: underline;
+}
+.H3flexParinti {
+  display: flex;
+  justify-content: center;
+  color: rgb(27, 74, 89);
+  text-decoration: underline;
+}
+.flexDisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.displayFlexImg {
+  width: 300px;
+  flex-shrink: 5;
+}
+.flexDirection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.flexDirectionImg {
+  width: 300px;
+  flex-shrink: 5;
+}
+.flexWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.flexWrapImg {
+  width: 300px;
+  flex-shrink: 5;
+}
+.flexFlow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.flexFlowImg {
+  width: 300px;
+}
+.justifyContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.justifyContentImg {
+  width: 300px;
+}
+.alignItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.alignItemsImg {
+  width: 300px;
+}
+.alignContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.alignContentImg {
+  width: 300;
+}
+.gapRowColumn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.gapImg {
+  width: 300;
 }
