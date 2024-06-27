@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <title>Elemente de baza in HTML</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url("whiteback.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+      }
+    </style>
+    <div>
+      <ul class="navBar">
+        <li><a class="linkTextNav" href="index.html">Acasa</a></li>
+        <li><a class="linkTextNav" href="tabele.html">Tabele</a></li>
+        <li><a class="linkTextNav" href="formulare.html">Formulare</a></li>
+        <li><a class="linkTextNav" href="multimedia.html">Multimedia</a></li>
+        <li>
+          <a class="linkTextNav" href="elementesitag.html"
+            >Elemente si Tag-uri</a
+          >
+        </li>
+
+        <li><a class="linkTextNav" href="css.html">Css Properties</a></li>
+        <li><a class="linkTextNav" href="cssLayout.html">Css Layout</a></li>
+      </ul>
+    </div>
+
+    <div class="indexContainer1">
+      <h1 class="h1Container1">HyperText Markup Language</h1>
+      <p>
+        HyperText Markup Language (HTML) este un
+        <a href="https://ro.wikipedia.org/wiki/Limbaj_de_marcare"
+          >limbaj de marcare utilizat</a
+        >
+        pentru crearea paginilor web ce pot fi afișate într-un browser (sau
+        navigator). Scopul HTML este mai degrabă prezentarea informațiilor-
+        paragrafe, fonturi, tabele ș.a.m.d.- decât descrierea semanticii
+        documentului. În cadrul dezvoltării web de tip front-end, HTML este
+        utilizat împreună cu CSS și JavaScript.
+      </p>
+      <p>
+        Specificațiile HTML sunt dictate de World Wide Web Consortium (W3C),
+        care încurajează utilizarea CSS în locul a HTML explicit pentru
+        prezentare.[1]
+      </p>
+    </div>
+    <div class="indexContainer2">
+      <h2 class="h2Container1">Introducere</h2>
+
+      <hr />
+      <p>
+        HTML este o formă de marcare orientată către prezentarea documentelor
+        text pe o singura pagină, utilizând un software de redare specializat,
+        numit agent utilizator HTML, cel mai bun exemplu de astfel de software
+        fiind browserul web. HTML furnizează mijloacele prin care conținutul
+        unui document poate fi adnotat cu diverse tipuri de metadate și
+        indicații de redare. Indicațiile de redare pot varia de la decorațiuni
+        minore ale textului, cum ar fi specificarea faptului că un anumit cuvânt
+        trebuie subliniat sau că o imagine trebuie introdusă, până la scripturi
+        sofisticate, hărți de imagini și formulare. Metadatele pot include
+        informații despre titlul și autorul documentului, informații structurale
+        despre cum este împărțit documentul în diferite segmente, paragrafe,
+        liste, titluri etc. și informații cruciale care permit ca documentul să
+        poată fi legat de alte documente pentru a forma astfel hiperlink-uri
+        (sau web-ul).
+      </p>
+      <p>
+        HTML este un format text proiectat pentru a putea fi citit și editat de
+        oameni utilizând un editor de text simplu. Totuși scrierea și
+        modificarea paginilor în acest fel solicită cunoștințe solide de HTML și
+        este consumatoare de timp. Editoarele grafice (de tip WYSIWYG) cum ar fi
+        Macromedia Dreamweaver, Adobe GoLive sau Microsoft FrontPage permit ca
+        paginile web sa fie tratate asemănător cu documetele Word, dar cu
+        observația că aceste programe generează un cod HTML care este de multe
+        ori de proastă calitate.
+      </p>
+    </div>
+    <h2 class="h2Container2">Notiuni de baza</h2>
+    <div class="indexContainer3">
+      <p>
+        HTML este prescurtarea de la Hyper Text Mark-up Language si este codul
+        care sta la baza paginilor web.
+      </p>
+      <p>
+        Paginile HTML sunt formate din etichete sau tag-uri și au extensia
+        „.html” sau „.htm”. În marea lor majoritate aceste etichete sunt
+        pereche, una de deschidere &lt;eticheta&gt; și alta de închidere
+        &lt;/eticheta&gt;, mai există și cazuri în care nu se închid, atunci se
+        folosește &lt;eticheta /&gt;. Navigatorul web interpretează aceste
+        etichete afișând rezultatul pe ecran. HTML-ul este un limbaj care nu
+        face deosebire între litere majuscule și minuscule.
+      </p>
+      <p>
+        Pagina principala a unui domeniu este fisierul „index.html” respectiv
+        „index.htm”. Această pagină este setată a fi afișată automat la
+        vizitarea unui domeniu.
+      </p>
+
+      <br />
+      <p>
+        De exemplu la vizitarea domeniului www.nume.ro este afișată pagina
+        www.nume.ro/index.html.
+      </p>
+      <br />
+    </div>
+    <div class="indexContainer4">
+      <p>
+        Unele etichete permit utilizarea de atribute care pot avea anumite
+        valori:
+      </p>
+    </div>
+    <div>
+      <table class="tableIndex1">
+        <tr>
+          <th>&lt;eticheta atribut="valoare"&gt; ... &lt;/eticheta&gt;</th>
+        </tr>
+      </table>
+    </div>
+    <div class="indexContainer5">
+      <p>Componența unui document HTML este:</p>
+      <div>
+        <ol class="indexOlList">
+          <li>versiunea HTML a documentului</li>
+          <li>zona head cu etichetele &lt;head&gt; &lt;/head&gt;</li>
+          <li>
+            zona body cu etichetele &lt;body&gt; &lt;/body&gt; sau
+            &lt;frameset&gt; &lt;/frameset&gt;
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="indexContainer6">
+      <p>Versiunea HTML poate fi:</p>
+      <ul>
+        <li><b>HTML 4.01 Strict</b></li>
+      </ul>
+      <!--Cauta info depre pre-->
+      <pre>
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</pre
+      >
+      <ul>
+        <li>HTML 4.01 Transitional</li>
+      </ul>
+      <pre>
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;</pre
+      >
+      <ul>
+        <li>HTML 4.01 Frameset</li>
+      </ul>
+      <pre>
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"&gt;</pre
+      >
+      <ul>
+        <li>HTML 5</li>
+      </ul>
+      <pre>&lt;!DOCTYPE HTML&gt;</pre>
+    </div>
+  </body>
+</html>

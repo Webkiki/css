@@ -1,0 +1,273 @@
+<html>
+  <head>
+    <title>Elemente si Tag-uri HTML</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url("whiteback.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+      }
+    </style>
+    <div>
+      <ul class="navBar">
+        <li><a class="linkTextNav" href="index.html">Acasa</a></li>
+        <li><a class="linkTextNav" href="tabele.html">Tabele</a></li>
+        <li><a class="linkTextNav" href="formulare.html">Formulare</a></li>
+        <li><a class="linkTextNav" href="multimedia.html">Multimedia</a></li>
+        <li>
+          <a class="linkTextNav" href="elementesitag.html"
+            >Elemente si Tag-uri</a
+          >
+        </li>
+
+        <li><a class="linkTextNav" href="css.html">Css Properties</a></li>
+        <li><a class="linkTextNav" href="cssLayout.html">Css Layout</a></li>
+      </ul>
+    </div>
+    <div class="containerElemMax">
+      <h1 class="elemH1container">Elemente si tag-uri</h1>
+
+      <!--Lista descriere in lista cod mai jos. Atentie unde inchizi si deschizi listele
+    <dt> poate sa fie gol sau poti avea lista fara el - intreaba - practic functioneaza si una si alta</dt>-->
+      <section>
+        <div class="containerElemente1">
+          <h2 class="elemH2">Elemente</h2>
+          <p>
+            Elementele in HTML reprezinta tot ceea ce este cuprins de la tag-ul
+            de inceput pana la tag-ul de inchidere
+          </p>
+          <dl class="dlElemen1">
+            <dt>Elementele in html sunt:</dt>
+            <dd>
+              Definite de un tag de inceput, continut si tag final
+              <dl>
+                <dt>Exemplu:</dt>
+                <dd>(exp:&lt;p&gt;<i>continut</i>&lt;/p&gt;)</dd>
+              </dl>
+              <!--final lista in lista 1-->
+            </dd>
+            <dd>
+              Fara continut
+              <dl>
+                <dd>fara tag de inchidere - se inchid singure</dd>
+                <dd>exemplu:&lt;br/&gt;, nu are tag de inchidere</dd>
+              </dl>
+            </dd>
+            <!--final lista in lista 2-->
+            <dd>
+              Nested - elementele pot contine alte elemente
+              <dl>
+                <dt></dt>
+                <dd>
+                  Exemplu: &lt;html&gt; &lt;body&gt; &lt;h1&gt;My First
+                  Heading&lt;/h1&gt; &lt;p&gt;My first paragraph.&lt;/p&gt;
+                  &lt;/body&gt; &lt;/html&gt;
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+          <!--final lista in lista 3-->
+        </div>
+      </section>
+      <section>
+        <div class="containerElemT">
+          <h2 class="h2Tag">Tag-uri</h2>
+          <p>
+            Ce sunt tag-urile? Un tag este un cuvant sau o litera inconjurata de
+            &lt; si &gt;
+          </p>
+        </div>
+        <div>
+          <ol class="olElemente2">
+            <li>
+              Tag-ul html - elementul principal
+              <dl class="liDl1">
+                <dt></dt>
+                <dd>Tag-urile pentru html sunt &lt;html&gt;...&lt;/html&gt;</dd>
+                <dd>Toate paginile web incep cu acest element</dd>
+                <dd>
+                  Tag-ul &lt;html&gt; se deschide la inceputul documentului html
+                </dd>
+                <dd>Tag-ul &lt;/html&gt; inchide documentul html</dd>
+                <dd>
+                  Tot continutul unei pagini web este cuprins intre aceste 2
+                  tag-uri
+                </dd>
+              </dl>
+            </li>
+            <li>
+              Tag-ul head - Sectiunea head a site-ului
+              <dl class="liDl1">
+                <dt></dt>
+                <dd>Tag-urile pentru head sunt &lt;head&gt;...&lt;/head&gt;</dd>
+                <dd>
+                  Contine informatii despre website
+                  <dl>
+                    <dt>Ce elemente puteti pune aici:</dt>
+                    <dd>Title - titlul paginii</dd>
+                    <dd>
+                      Link - folosit la adaugarea fisierelor .css si a
+                      favicon-ului
+                    </dd>
+                    <dd>
+                      Meta - folosit la specificarea setului de caractere,
+                      descrierea paginii,etc
+                    </dd>
+                    <dd>Script - folosit la adaugarea de cod JavaScript</dd>
+                  </dl>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              Tag-ul title - titlul paginii
+              <dl class="liDl1">
+                <dt></dt>
+                <dd>
+                  Tag-urile pentru title sunt: &lt;title&gt;...&lt;/title&gt;
+                </dd>
+                <dd>Acest element contine titlul paginii</dd>
+                <dd>
+                  Titlul este afisat in bara de titlu a browserului, bookmarks,
+                  rezultatele cautarilor, etc.
+                </dd>
+                <dd>
+                  Titlul trebuie sa descrie continutul paginii succint si precis
+                </dd>
+              </dl>
+            </li>
+            <li>
+              Tag-ul body - "corpul"- continutul paginii
+              <dl class="liDl1">
+                <dt></dt>
+                <dd>Tag-urile pentru body sunt &lt;body&gt;...&lt;/body&gt;</dd>
+                <dd>
+                  Elementul body apare imediat dupa inchiderea tag-ului head
+                </dd>
+                <dd>
+                  In interiorul acestui tag se scrie tot continutul paginii web
+                </dd>
+              </dl>
+            </li>
+            <li>
+              Tag-urile h - titlurile
+              <dl class="liDl1">
+                <dt></dt>
+                <dd>
+                  Tag-urile pentru titluri sunt: &lt;h..&gt;...&lt;/h..&gt;
+                </dd>
+                <dd>
+                  Tag-urile h se numeroteaza de la 1 la 6, 1 fiind cel mai
+                  important
+                </dd>
+              </dl>
+            </li>
+            <li>
+              Tag-ul p-paragraful
+              <dl class="liDl1">
+                <dt></dt>
+                <dd>Tag-ul pentru paragraf este &lt;p&gt;....&lt;/p&gt;</dd>
+                <dd>Este unul dintre cele mai utilizate tag-uri</dd>
+                <dd>Acest element da posibilitatea de a creea pragrafe</dd>
+              </dl>
+            </li>
+            <li>
+              Tag-ul a - un link
+              <dl class="liDl1">
+                <dt></dt>
+                <dd>
+                  tag-ul pentru link este:&lt;a href="link"&gt;...&lt;/a&gt;
+                </dd>
+                <dd>
+                  Textul care urmeaza sa fie transformat in link se pune intre
+                  tag-urile a,iar adresa la care sa se trimita se pune in
+                  atributul href
+                </dd>
+                <dd>
+                  Iti permite sa creezi link-uri catre alte pagini(interne sau
+                  externe)
+                </dd>
+              </dl>
+            </li>
+            <li>
+              Tag-ul img - o imagine
+              <dl class="liDl1">
+                <dt></dt>
+                <dd>
+                  Tag-ul pentru img este &lt;img src="sursa imagine" alt="text
+                  alternativ"&gt;
+                </dd>
+                <dd>
+                  Pentru afisarea imaginii este necesar sa fie incarcata
+                  undeva-host de imagini, server, etc.
+                </dd>
+                <dd>Tag-ul se inchide singur, nu are tag de inchidere</dd>
+              </dl>
+            </li>
+            <li>
+              Tag-ul div - element de tip block
+              <dl class="liDl1">
+                <dt></dt>
+                <dd>Tag-urile pentru div sunt &lt;div&gt;...&lt;/div&gt;</dd>
+                <dd>Elementul div este un container generic</dd>
+                <dd>Este folosit pentru a structura o pagina mai bine</dd>
+                <dd>
+                  Se poate folosi pentru a grupa mai multe paragrafe sau titluri
+                  din aceasi categorie
+                </dd>
+                <dd>
+                  Elementele div sunt folosite pentru:
+                  <ul class="ulDl1">
+                    <li>partea de sus/jos a website-ului</li>
+                    <li>coloane de continut si meniuri laterale</li>
+                    <li>casuta de text</li>
+                    <li>zone de design</li>
+                    <li>galerii</li>
+                  </ul>
+                </dd>
+                <dd>
+                  Cu ajutorul claselor si id-urilor se pot adauga stiluri CSS
+                </dd>
+              </dl>
+            </li>
+            <li>
+              Tag-ul span - container inline
+              <dl class="liDl1">
+                <dt></dt>
+                <dd>
+                  Tag-urile pentru span sunt &lt;span&gt;....&lt;/span&gt;
+                </dd>
+                <dd>
+                  Este similar cu elementul div, insa span este un element
+                  inline comparativ cu div
+                </dd>
+              </dl>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <div class="containerElemente2">
+        <p>
+          <i
+            >-Elementele de tip block, precum div, h1 si p sunt elemente creeate
+            pentru a tine un continut relativ mare precum un paragraf sau un
+            text complet. Un element de tipul block este intotdeauna deschis pe
+            o linie noua.
+          </i>
+        </p>
+        <p>
+          <i
+            >-Elementele inline, precum span, a, img, etc sunt creeate pentru a
+            tine un continut mic, precum un cuvant sau o propozitie. Un element
+            inline nu trebuie adaugat pe noua linie.Elementele de tip block pot
+            contine elemente inline, dar nu se poate invers.</i
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

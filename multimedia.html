@@ -1,0 +1,217 @@
+<html>
+  <head>
+    <title>MULTIMEDIA IN HTML</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url("whiteback.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+      }
+    </style>
+    <div>
+      <ul class="navBar">
+        <li><a class="linkTextNav" href="index.html">Acasa</a></li>
+        <li><a class="linkTextNav" href="tabele.html">Tabele</a></li>
+        <li><a class="linkTextNav" href="formulare.html">Formulare</a></li>
+        <li><a class="linkTextNav" href="multimedia.html">Multimedia</a></li>
+        <li>
+          <a class="linkTextNav" href="elementesitag.html"
+            >Elemente si Tag-uri</a
+          >
+        </li>
+
+        <li><a class="linkTextNav" href="css.html">Css Properties</a></li>
+        <li><a class="linkTextNav" href="cssLayout.html">Css Layout</a></li>
+      </ul>
+    </div>
+    <div class="multimediaContainerMax">
+      <h1>Multimedia si web-ul</h1>
+      <hr />
+      <p>
+        Web-ul ar fi foarte plictisitor doar folosind text. Să începem să vedem
+        cum să facem web-ul să prindă viață cu conținut mai interesant!
+      </p>
+      <div class="multimediaContainer1">
+        <p>Ce este multimedia?</p>
+        <hr />
+        <p>
+          Multimedia vine în multe formate si poate fi aproape orice puteți auzi
+          sau vedea. Paginile web conțin adesea elemente multimedia de diferite
+          tipuri și formate.
+        </p>
+        <p>
+          Multimedia pe web este sunet, muzică, videoclipuri, filme și animații.
+        </p>
+
+        <h4>Exemple de multimedia pe web:</h4>
+        <ul>
+          <li>Imagini</li>
+          <li>Muzica</li>
+          <li>Sunet</li>
+          <li>Videoclipui</li>
+          <li>Inregistrari</li>
+          <li>Filme</li>
+          <li>Animatii</li>
+        </ul>
+        <br />
+        <p>De ce folosim continut media in paginile web?</p>
+        <hr />
+        <p>
+          Prin încorporarea de videoclipuri, imagini și alte elemente vizuale în
+          site-ul dvs. web, puteți crea o experiență mai dinamică și mai
+          interactivă pentru vizitatorii paginii. Beneficiile conținutului
+          multimedia merg dincolo de aspectul estetic.
+        </p>
+      </div>
+      <div>
+        <h3>Implemetare media in Html - Ghid</h3>
+
+        <ol class="olMultimedia">
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML"
+              >Imagini</a
+            >
+          </li>
+          <p>
+            Unul din cele mai utilizate tipuri de multimedia sunt fotografiile.
+            Tag-urile pentru imagini sunt: &lt;img src="..."/&gt;
+          </p>
+          <img
+            class="imgMultimedia1"
+            src="imgexemplu.png"
+            alt="exemplu poza si cod img"
+          />
+
+          <br />
+
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content"
+              >Video</a
+            >
+          </li>
+          <p>
+            Un alt exemplu de multimedia foarte des intalnit in paginile web
+            este video. Tag-urile pentru video sunt:&lt;video&gt; &lt;source
+            src="..." type=".../mp4"/&gt; &lt;/video&gt;
+          </p>
+          <video controls class="videoMultimedia">
+            <source
+              src="https://www.w3schools.com/html/mov_bbb.mp4"
+              type="video/mp4"
+            />
+            <source
+              src="https://www.w3schools.com/html/mov_bbb.ogg"
+              type="video/ogg"
+            />
+            Your browser does not support the video tag.
+          </video>
+
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content"
+              >Audio</a
+            >
+          </li>
+          <p>
+            Elementul HTML &lt;audio&gt; este folosit pentru a reda un fișier
+            audio pe o pagină web. Tag-urile pentru audio sunt: &lt;audio&gt;
+            &lt;source src="..." type="..."&gt; si tag-ul de inchidere
+            &lt;/audio&gt;
+          </p>
+          <audio controls autoplay muted>
+            <source src="https://www.w3schools.com/html/horse.ogg" />
+          </audio>
+
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies"
+            >
+              De la &lt;obiect&gt; la &lt;iframe&gt; — alte tehnologii de
+              încorporare</a
+            >
+          </li>
+          <iframe src="multimedia.html" title="MultimediaHtml"></iframe>
+          <p>
+            În acest moment, am dori să facem un pas oarecum lateral, analizând
+            câteva elemente care vă permit să încorporați o mare varietate de
+            tipuri de conținut în paginile dvs. web: elementele &lt;iframe&gt;,
+            &lt;embed&gt; și<br />
+            &lt;object&gt;. &lt;iframe&gt;-urile sunt pentru încorporarea altor
+            pagini<br />
+            web, iar celelalte două vă permit să încorporați resurse externe,
+            cum ar fi fișierele PDF.
+          </p>
+
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web"
+              >Adăugarea de grafică vectorială pe Web</a
+            >
+          </li>
+
+          <svg width="100" height="100">
+            <circle
+              cx="50"
+              cy="50"
+              r="40"
+              stroke="red"
+              stroke-width="7"
+              fill="orange"
+            />
+          </svg>
+
+          <svg height="130" width="500">
+            <defs>
+              <linearGradient id="grad1">
+                <stop offset="0%" stop-color="pink" />
+                <stop offset="100%" stop-color="magenta" />
+              </linearGradient>
+            </defs>
+            <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+            <text
+              fill="#ffffff"
+              font-size="45"
+              font-family="Verdana"
+              x="50"
+              y="86"
+            >
+              SVG
+            </text>
+            Sorry, your browser does not support inline SVG.
+          </svg>
+          <p>
+            Grafica vectoriala poate fi foarte utila in anumite situatii. Spre
+            deosebire de formatele obișnuite, cum ar fi PNG/JPG, acestea nu
+            distorsionează/pixelează atunci când sunt mărite - pot rămâne netede
+            atunci când sunt scalate.
+          </p>
+
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"
+              >Imagini receptive</a
+            >
+          </li>
+          <img src="natura.png" alt="Natura" class="imgNaturaResponsive" />
+          <p>
+            În aceasta sectiune, vom afla despre conceptul de imagini receptive
+            - imagini care funcționează bine pe dispozitive cu dimensiuni de
+            ecran, rezoluții și alte astfel de caracteristici foarte diferite -
+            și vom vedea ce instrumente oferă HTML pentru a ajuta la
+            implementarea lor. Acest lucru ajută la îmbunătățirea performanței
+            pe diferite dispozitive. Imaginile responsive sunt doar o parte a
+            designului responsive, un viitor subiect CSS pe care trebuie să-l
+            înveți.
+          </p>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>

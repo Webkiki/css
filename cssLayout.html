@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <title>Css Layout</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url("whiteback.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+      }
+    </style>
+    <div>
+      <ul class="navBar">
+        <li><a class="linkTextNav" href="index.html">Acasa</a></li>
+        <li><a class="linkTextNav" href="tabele.html">Tabele</a></li>
+        <li><a class="linkTextNav" href="formulare.html">Formulare</a></li>
+        <li><a class="linkTextNav" href="multimedia.html">Multimedia</a></li>
+        <li>
+          <a class="linkTextNav" href="elementesitag.html"
+            >Elemente si Tag-uri</a
+          >
+        </li>
+        <li><a class="linkTextNav" href="css.html">Css Properties</a></li>
+        <li><a class="linkTextNav" href="cssLayout.html">Css Layout</a></li>
+        <li><a class="linkTextNav" href="git.html">Git</a></li>
+      </ul>
+    </div>
+    <div class="layoutContainer1">
+      <h2 class="h2Layout">The position Property</h2>
+      <p>Există cinci valori diferite de poziție:</p>
+      <ul class="listPosition">
+        <li>static</li>
+        <li>relative</li>
+        <li>fixed</li>
+        <li>absolute</li>
+        <li>sticky</li>
+      </ul>
+    </div>
+    <div class="layoutContainer2">
+      <h2 class="PsStatic">Position: static</h2>
+      <p>
+        Elementele HTML sunt poziționate statice în mod implicit. Elementele
+        poziționate statice nu sunt afectate de proprietățile de sus, jos,
+        stânga și dreapta. Un element cu poziție: static este întotdeauna
+        poziționat conform fluxului normal al paginii.
+      </p>
+      <h4>Exemplu:</h4>
+      <p>div.static { position: static; border: 3px solid #73AD21; }</p>
+      <img src="imgstatic.png" alt="positie statica" class="imgStatic" />
+    </div>
+    <div class="layoutContainer3">
+      <h2 class="PsRelative">Position: relative</h2>
+      <p>
+        Un element cu poziție: relativă este pozitionat fata de pozitia sa
+        normala. Setarea proprietăților de sus, dreapta, jos și stânga ale unui
+        element relativ poziționat va face ca acesta să fie ajustat departe de
+        poziția sa normală.
+      </p>
+
+      <h4>Exemplu:</h4>
+      <p>
+        div.relative { position: relative; left: 30px; border: 3px solid
+        #73AD21; }
+      </p>
+      <img src="imgrelative.png" alt="positie relativa" class="imgRelative" />
+    </div>
+    <div class="layoutContainer4">
+      <h2 class="PsFixed">Position: fixed</h2>
+      <p>
+        Un element cu poziție: fixed este poziționat în raport cu fereastra,
+        ceea ce înseamnă că rămâne întotdeauna în același loc chiar dacă pagina
+        este derulată. Proprietățile de sus, dreapta, jos și stânga sunt
+        folosite pentru a poziționa elementul. Un element fix nu lasă un gol în
+        pagina în care ar fi fost localizat în mod normal.
+      </p>
+      <h4>Exemplu:</h4>
+      <p>
+        div.fixed { position: fixed; bottom: 0; right: 0; width: 300px; border:
+        3px solid #73AD21; }
+      </p>
+      <img src="imgfixed.png" alt="positie fixed" class="imgFixed" />
+    </div>
+    <div class="layoutContainer5">
+      <h2 class="PsAbsolute">Position: absolute</h2>
+      <p>
+        Un element cu poziție: absolut; este poziționat în raport cu cel mai
+        apropiat strămoș poziționat. Elementele poziționate absolut sunt
+        îndepărtate din fluxul normal și se pot suprapune elementelor.
+      </p>
+      <h4>Exemplu:</h4>
+      <p>
+        div.absolute { position: absolute; top: 80px; right: 0; width: 200px;
+        height: 100px; border: 3px solid #73AD21; }
+      </p>
+      <img src="imgabsolute.png" alt="position absolute" class="imgAbsolute" />
+    </div>
+    <div class="layoutContainer6">
+      <h2 class="zIndex1">
+        <a href="https://www.w3schools.com/css/css_z-index.asp"
+          >The z-index Property</a
+        >
+      </h2>
+      <p>
+        Când elementele sunt poziționate, acestea se pot suprapune cu alte
+        elemente.Proprietatea z-index specifică ordinea stivei (stack) unui
+        element (care ar trebui să fie plasat în fața sau în spatele
+        celorlalți). Un element poate avea o ordine de stivă(stack) pozitivă sau
+        negativă:
+      </p>
+      <p>
+        Notă: z-index funcționează numai pe elementele poziționate (poziție:
+        absolută, poziție: relativă, poziție: fixă sau poziție: lipicioasă) și
+        elemente flexibile (elementele care sunt copii direcți ai afișajului:
+        elemente flexibile).
+      </p>
+      <p>Exemple:</p>
+      <div class="exempleZindex">
+        <img src="zindeximg1.png" alt="zIndex exp 1" class="imgZindex1" />
+
+        <img src="zindeximg2.png" alt="zIndex exp 2" class="imgZindex2" />
+
+        <img src="zindeximg3.png" alt="zIndex exp 3" class="imgZindex3" />
+      </div>
+    </div>
+  </body>
+</html>
