@@ -257,7 +257,7 @@ body {
   color: rgb(38, 64, 87);
   text-decoration: underline;
 }
-.H3flexParinti {
+.H3flex {
   display: flex;
   justify-content: center;
   color: rgb(27, 74, 89);
@@ -273,8 +273,8 @@ body {
   padding-left: 20px;
 }
 .displayFlexImg {
-  width: 300px;
-  flex-shrink: 5;
+  width: 35%;
+  height: auto;
 }
 .flexDirection {
   display: flex;
@@ -286,8 +286,8 @@ body {
   padding-left: 20px;
 }
 .flexDirectionImg {
-  width: 300px;
-  flex-shrink: 5;
+  width: 35%;
+  height: auto;
 }
 .flexWrap {
   display: flex;
@@ -299,8 +299,8 @@ body {
   padding-left: 20px;
 }
 .flexWrapImg {
-  width: 300px;
-  flex-shrink: 5;
+  width: 35%;
+  height: auto;
 }
 .flexFlow {
   display: flex;
@@ -312,7 +312,8 @@ body {
   padding-left: 20px;
 }
 .flexFlowImg {
-  width: 300px;
+  width: 35%;
+  height: auto;
 }
 .justifyContent {
   display: flex;
@@ -324,7 +325,8 @@ body {
   padding-left: 20px;
 }
 .justifyContentImg {
-  width: 300px;
+  width: 35%;
+  height: auto;
 }
 .alignItems {
   display: flex;
@@ -336,7 +338,8 @@ body {
   padding-left: 20px;
 }
 .alignItemsImg {
-  width: 300px;
+  width: 35%;
+  height: auto;
 }
 .alignContent {
   display: flex;
@@ -348,7 +351,8 @@ body {
   padding-left: 20px;
 }
 .alignContentImg {
-  width: 300;
+  width: 35%;
+  height: auto;
 }
 .gapRowColumn {
   display: flex;
@@ -360,7 +364,20 @@ body {
   padding-left: 20px;
 }
 .gapImg {
-  width: 300;
+  width: 35%;
+  height: auto;
+}
+.flexItemsMax {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.flexItems {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  text-align: center;
 }
 /*css Index*/
 .indexContainer1 {

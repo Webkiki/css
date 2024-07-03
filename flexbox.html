@@ -48,9 +48,7 @@
         debordarea.
       </p>
     </div>
-    <h3 class="H3flexParinti">
-      Proprietati flexbox ale parintilor(flex container)
-    </h3>
+    <h3 class="H3flex">Proprietati flexbox ale parintilor(flex container)</h3>
     <div class="flexDisplay">
       <p>
         Display - Aceasta definește un container flexibil; inline sau bloc în
@@ -137,6 +135,43 @@
         gap funcționează și în aspectul grilă și cu mai multe coloane.
       </p>
       <img src="gapimg.png" alt="gap row-gap column-gap img" class="gapImg" />
+    </div>
+    <h3 class="H3flex">Proprietati ale "copiilor"(flex items)</h3>
+    <div class="flexItemsMax">
+      <div class="flexItems">
+        <p>
+          În mod implicit, elementele flexibile sunt așezate în ordinea sursei.
+          Cu toate acestea, proprietatea "order" controlează ordinea în care
+          apar în containerul flexibil.
+        </p>
+        <img src="order.png" alt="order" class="gapImg" />
+      </div>
+      <div class="flexItems">
+        <p>
+          Aceasta definește capacitatea unui element flexibil de a crește dacă
+          este necesar.Dictează ce cantitate din spațiul disponibil în
+          interiorul containerului flexibil ar trebui să ocupe articolul.
+        </p>
+        <img src="flex-grow.png" alt="flexgrow" class="gapImg" />
+      </div>
+      <div class="flexItems">
+        <p>
+          Aceasta definește capacitatea unui element flexibil de a se micșora
+          dacă este necesar. Numerele negative sunt invalide.
+        </p>
+        <p>
+          Aceasta definește dimensiunea implicită a unui element înainte ca
+          spațiul rămas să fie distribuit.
+        </p>
+        <img src="flex-basis.png" alt="flexbasis graphic" class="gapImg" />
+      </div>
+      <div class="flexItems">
+        <p>
+          Align-self - permite alinierea implicită (sau cea specificată de
+          align-items) să fie înlocuită pentru elementele flexibile individuale.
+        </p>
+        <img src="alignself.png" alt="alignself" class="gapImg" />
+      </div>
     </div>
   </body>
 </html>
