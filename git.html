@@ -48,8 +48,58 @@
     <div>
       <p>
         Pentru a folosi Git - vom deschide un terminal (Command Shell). Apoi vom
-        verifica daca Git este instalat corect.
+        verifica daca Git este instalat si daca este instalat corect, folosim
+        comanda git --version in terminal.
       </p>
+      <p>
+        Definim userul si mail-ul contului nostru de GitHub. Pentru asta vom
+        rula 2 comenzi:git config --global user.name "USERUL_TAU" si git config
+        --global user.email "EMAILUL_TAU"
+      </p>
+      <p>Aceste comenzi se utilizeaza exclusiv la prima configurare de GIT.</p>
+      <div>
+        <h2>Primul repository</h2>
+        <p>
+          Pentru a lega folderul local de repository-ul din github trebuie sa
+          deschidem browserul si se copiaza link-ul generat de github.
+        </p>
+        <p>
+          Apoi, in terminal, introducem comanda git spațiu clone spațiu și
+          link-ul pe care l-am copiat.
+        </p>
+        <p>
+          Pentru a executa comenzi trebuie sa navigam in folderul pe care vrem
+          sa il incarcam. Aici folosim comanda cd spatiu si "calea" catre
+          folderul in care vrem sa ajungem.
+        </p>
+        <p>
+          Pentru a verifica folderul in care ne aflam folosim comanda ls sau ls
+          -lah pentru mai multe detalii.
+        </p>
+        <p>
+          Pentru a incarca fisierele de pe calculator pe github avem nevoie de 3
+          comenzi: git add ., git commit -m "feat: fisier nou de index" (m
+          contine mesajul pe care vrem sa il trimitem), git push.
+        </p>
+      </div>
+      <div>
+        <h2>Comenzi git</h2>
+        <ul>
+          <li>git --help</li>
+          <li>git init</li>
+          <li>git log</li>
+          <li>git diff</li>
+          <li>git revert</li>
+          <li>git reset</li>
+          <li>git clean</li>
+          <li>git rebase</li>
+          <li>git branch</li>
+          <li>git merge</li>
+          <li>git remote</li>
+          <li>git fetch</li>
+          <li>git pull</li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
