@@ -529,8 +529,7 @@ th {
 
 @media screen and (max-width: 375px) {
   .navBar {
-    display: flex;
-    flex-direction: column;
+    display: none;
   }
   .indexContainer1,
   .indexContainer2,
